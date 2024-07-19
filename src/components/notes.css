@@ -1,0 +1,49 @@
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Very light gray background for the container */
+    padding: 20px;
+  }
+  
+  .notes-title {
+    color: #333;
+  }
+  
+  .add-note-link {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .add-note-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .notes-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+  
+  .notes-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .notes-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .notes-table a:hover {
+    text-decoration: underline;
+  }
+  
